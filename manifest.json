@@ -1,15 +1,25 @@
 {
-  "name": "Water Cashier App",
-  "short_name": "Cashier",
-  "start_url": ".",
+  "name": "Robux Tracker",
+  "short_name": "RbxTracker",
+  "description": "Robux reselling order and payment tracker",
+  "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#000000",
+  "background_color": "#f5f0e8",
+  "theme_color": "#7a5c3a",
+  "orientation": "portrait",
   "icons": [
     {
       "src": "icon.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ]
 }
+
